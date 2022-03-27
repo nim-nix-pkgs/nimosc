@@ -11,6 +11,7 @@
   inputs.src-nimosc-main.ref   = "refs/heads/main";
   inputs.src-nimosc-main.owner = "Psirus";
   inputs.src-nimosc-main.repo  = "NimOSC";
+  inputs.src-nimosc-main.dir   = "";
   inputs.src-nimosc-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
